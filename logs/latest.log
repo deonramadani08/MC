@@ -1,14 +1,15 @@
-[20:10:37] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[20:10:38] [main/WARN]: Warnings were found!
+[20:25:17] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[20:25:17] [main/WARN]: Warnings were found!
  - Mod 'OptiGUI' (optigui) 2.3.0-beta.7+1.21.2 recommends any version of animatica, which is missing!
 	 - You should install any version of animatica for the optimal experience.
-[20:10:38] [main/INFO]: Loading 137 mods:
+[20:25:17] [main/INFO]: Loading 139 mods:
 	- bettergrass 1.4.4+fabric.1.21.4
 	   \-- blue_endless_jankson 1.2.3
 	- bettermounthud 1.2.5
 	- capes 1.5.4+1.21.4
 	- cloth-config 17.0.144
 	   \-- cloth-basic-math 0.6.1
+	- collective 7.89
 	- continuity 3.0.0+1.21.4
 	- controlify 2.0.2+1.21.4-fabric
 	   \-- mixinextras 0.5.0-beta.4
@@ -91,6 +92,7 @@
 	- forgeconfigapiport 21.4.1
 	   |-- com_electronwill_night-config_core 3.8.1
 	   \-- com_electronwill_night-config_toml 3.8.1
+	- fullbrightnesstoggle 4.2
 	- immediatelyfast 1.3.4+1.21.4
 	   \-- net_lenni0451_reflect 1.3.4
 	- iris 1.8.5+mc1.21.4
@@ -140,197 +142,220 @@
 	- yosbr 0.1.2
 	- zoomify 2.14.2+1.21.3
 	   \-- com_akuleshov7_ktoml-core-jvm 0.5.2
-[20:10:38] [main/INFO]: Applying default options... (YOSBR)
-[20:10:38] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/deonr/AppData/Roaming/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[20:10:38] [main/INFO]: Compatibility level set to JAVA_17
-[20:10:38] [main/INFO]: Compatibility level set to JAVA_21
-[20:10:38] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:10:38] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
-[20:10:38] [main/WARN]: Reference map 'iris-fabric.refmap.json' for mixins.iris.fabric.json could not be read. If this is a development environment you can ignore this message
-[20:10:38] [main/WARN]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:10:38] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
-[20:10:38] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
-[20:10:38] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.bettermipmaps.json could not be read. If this is a development environment you can ignore this message
-[20:10:38] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
-[20:10:38] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fixes.maxfpscrash.json could not be read. If this is a development environment you can ignore this message
-[20:10:38] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[20:10:38] [main/INFO]: Loaded configuration file for Lithium: 142 options available, 1 override(s) found
-[20:10:38] [main/INFO]: Loaded configuration file for ModernFix 5.20.2+mc1.21.4: 54 options available, 0 override(s) found
-[20:10:38] [main/INFO]: Applying Nashorn fix
-[20:10:38] [main/INFO]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
-[20:10:38] [main/INFO]: Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
-[20:10:39] [main/WARN]: Force disabled MC-122477 because it only applies to OS: LINUX
-[20:10:39] [main/WARN]: Force disabled MC-22882 because it only applies to OS: MAC
-[20:10:39] [main/WARN]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev/tr7zw/skinlayers/render/CustomizableModelPart)
-[20:10:39] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer)
-[20:10:39] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
-[20:10:39] [main/WARN]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[20:10:39] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[20:10:39] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
-[20:10:39] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
-[20:10:39] [main/INFO]: Searching for graphics cards...
-[20:10:40] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 3070', adapterType=0x0000031B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_0afec3f2050014a0\nvoglv64.dll', openglIcdVersion=32.0.15.6094}
-[20:10:40] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
-[20:10:40] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
-[20:10:40] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.4).
-[20:10:41] [Datafixer Bootstrap/INFO]: 243 Datafixer optimizations took 323 milliseconds
-[20:10:43] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[20:10:43] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[20:10:46] [main/INFO]: Vanilla bootstrap took 3888 milliseconds
-[20:10:46] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:10:46] [Render thread/INFO]: Setting user: Tekumoto13
-[20:10:46] [Render thread/INFO]: Enabled 53 bug fixes: [MC-577, MC-2025, MC-4490, MC-7569, MC-8187, MC-22882, MC-30391, MC-46766, MC-69216, MC-79545, MC-80859, MC-88371, MC-89146, MC-90683, MC-93018, MC-93384, MC-100991, MC-105068, MC-108948, MC-112730, MC-116379, MC-119417, MC-119754, MC-121706, MC-121903, MC-122477, MC-122627, MC-127970, MC-129909, MC-132878, MC-143474, MC-155509, MC-159163, MC-160095, MC-165381, MC-176559, MC-179072, MC-183776, MC-183990, MC-197260, MC-199467, MC-200418, MC-206922, MC-215530, MC-215531, MC-217716, MC-223153, MC-224729, MC-231097, MC-231743, MC-232869, MC-237493, MC-263865]
-[20:10:46] [Render thread/INFO]: Successfully Debugify'd your game!
-[20:10:46] [Render thread/INFO]: [BetterGrassify] [FANCY] Gamers can finally touch grass!?
-[20:10:47] [Render thread/INFO]: Trying to read config file...
-[20:10:47] [Render thread/INFO]: A config file was found, loading it..
-[20:10:47] [Render thread/INFO]: Successfully loaded config file.
-[20:10:47] [Render thread/INFO]: Pre-initializing Controlify...
-[20:10:47] [Render thread/INFO]: Dynamic FPS 3.7.7 active on Fabric!
-[20:10:47] [Render thread/INFO]: Loading Entity Model Features, (:
-[20:10:47] [Render thread/INFO]: [ETF]: 6 new ETF Random Properties registered by entity_model_features.
-[20:10:47] [Render thread/INFO]: Loading Entity Texture Features, hello there!
-[20:10:47] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
-[20:10:47] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
-[20:10:47] [Render thread/INFO]: [LambDynLights] Configuration loaded.
-[20:10:47] [Render thread/INFO]: Loaded config modelfix-client.json
-[20:10:47] [Render thread/INFO]: Checking mod updates...
-[20:10:48] [Render thread/INFO]: Deserializing YACLConfig from 'C:\Users\deonr\AppData\Roaming\ModrinthApp\profiles\cooking with deon\config\yacl.json5'
-[20:10:48] [Worker-Main-1/INFO]: Update available for 'moreculling@1.2.3', (-> 1.2.4)
-[20:10:48] [Worker-Main-1/INFO]: Update available for 'sodium@0.6.6+mc1.21.4', (-> mc1.21.4-0.6.7-fabric)
-[20:10:48] [Worker-Main-1/INFO]: Update available for 'modernfix@5.20.2+mc1.21.4', (-> 5.20.3+mc1.21.4)
-[20:10:48] [Worker-Main-1/INFO]: Update available for 'polytone@1.21.4-3.2.9', (-> 1.21.4-3.2.11)
-[20:10:48] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
-[20:10:49] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] This version doesn't have an update index, skipping.
-[20:10:49] [Render thread/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
-[20:10:49] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
-[20:10:49] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 3070/PCIe/SSE2
-[20:10:49] [Render thread/INFO]: OpenGL Version: 3.2.0 NVIDIA 560.94
-[20:10:49] [Render thread/INFO]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
-[20:10:49] [Render thread/INFO]: Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threadedcommand submission
-[20:10:49] [Render thread/INFO]: Initializing ImmediatelyFast 1.3.4+1.21.4 on NVIDIA GeForce RTX 3070/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 3.2.0 NVIDIA 560.94
-[20:10:49] [Render thread/INFO]: Found Iris/Oculus 1.8.5+mc1.21.4. Enabling compatibility.
-[20:10:50] [Render thread/INFO]: Debug functionality is disabled.
-[20:10:50] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
-[20:10:50] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
-[20:10:50] [Render thread/INFO]: Creating new resource manager!
-[20:10:50] [Render thread/INFO]: Quick reload listener 'class_1076'
-[20:10:50] [Render thread/INFO]: Quick reload listener 'Shader Loader'
-[20:10:50] [Render thread/INFO]: Quick reload listener 'class_4008'
-[20:10:50] [Render thread/INFO]: Quick reload listener 'class_378'
-[20:10:50] [Worker-Main-2/INFO]: Found unifont_all_no_pua-16.0.01.hex, loading
-[20:10:50] [Worker-Main-12/INFO]: Found unifont_jp_patch-16.0.01.hex, loading
-[20:10:50] [Render thread/INFO]: Quick reload listener 'class_8658'
-[20:10:50] [Render thread/INFO]: Hardware information:
-[20:10:50] [Render thread/INFO]: CPU: 16x 11th Gen Intel(R) Core(TM) i7-11700F @ 2.50GHz
-[20:10:50] [Render thread/INFO]: GPU: NVIDIA GeForce RTX 3070/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 560.94)
-[20:10:50] [Render thread/INFO]: OS: Windows 11 (10.0)
-[20:10:51] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/minecraft.png'!
-[20:10:51] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/edition.png'!
-[20:10:51] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_overlay.png'!
-[20:10:51] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_0.png'!
-[20:10:51] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_1.png'!
-[20:10:51] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_2.png'!
-[20:10:51] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_3.png'!
-[20:10:51] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_4.png'!
-[20:10:51] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_5.png'!
-[20:10:51] [Render thread/INFO]: Invalidating pack caches
-[20:10:51] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, bettergrass, bettermounthud, capes, cloth-config, conditional-mixin, continuity, controlify, cubes-without-borders, debugify, dynamic_fps, e4mc_minecraft, enhancedblockentities, entity_model_features, entity_texture_features, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fabrishot, forgeconfigapiport, immediatelyfast, iris, lambdynlights, lambdynlights_api, languagereload, lithium, midnightlib, mixintrace, modernfix, modmenu, morechathistory, moreculling, nochatreports, optigui, paginatedadvancements, placeholder-api, polytone, pride, puzzle, reeses-sodium-options, rrls, sodium, sodium-extra, spruceui, yet_another_config_lib_v3, yosbr, zoomify
-[20:10:51] [Worker-ResourceReload-12/INFO]: Found unifont_jp_patch-16.0.01.hex, loading
-[20:10:51] [Worker-ResourceReload-10/INFO]: Found unifont_all_no_pua-16.0.01.hex, loading
-[20:10:51] [ForkJoinPool.commonPool-worker-1/INFO]: Registered 0 extra models
-[20:10:51] [Render thread/INFO]: [ETF]: reloading ETF data.
-[20:10:51] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
-[20:10:51] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
-[20:10:51] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
-[20:10:51] [Worker-ResourceReload-4/WARN]: Method overwrite conflict for getCullingBox in sodium-common.mixins.json:core.render.world.EntityRendererAccessor from mod sodium, previously written by dev.tr7zw.entityculling.mixin.EntityRendererMixin. Skipping method.
-[20:10:51] [Render thread/INFO]: Initializing Controlify...
-[20:10:51] [Render thread/INFO]: Loading Controlify config...
-[20:10:51] [Render thread/INFO]: [SDL3NativesManager] Loading SDL3 version: 3.1.11. Java bindings targeting: 3.1.9
-[20:10:51] [Render thread/WARN]: [SDL3NativesManager] SDL3 NATIVE LIBRARY VERSION MISMATCH! Java bindings are targeting a different version of SDL3 than the loaded native library. This may cause issues.
-[20:10:51] [Render thread/INFO]: [SDL3NativesManager] Successfully initialised SDL subsystems
-[20:10:51] [Render thread/INFO]: Steam Deck state: NOT_STEAM_DECK
-[20:10:51] [Render thread/INFO]: Cached all modded block culling states
-[20:10:52] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[20:10:52] [Render thread/INFO]: Finishing Controlify init...
-[20:10:52] [Render thread/INFO]: Successfully loaded 531 gamepad mapping entries!
-[20:10:52] [Render thread/INFO]: No controllers found.
-[20:10:53] [Worker-ResourceReload-3/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=false,facing=west,waterlogged=true:
+[20:25:17] [main/INFO]: Applying default options... (YOSBR)
+[20:25:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/deonr/AppData/Roaming/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[20:25:17] [main/INFO]: Compatibility level set to JAVA_17
+[20:25:17] [main/INFO]: Compatibility level set to JAVA_21
+[20:25:17] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:25:17] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[20:25:17] [main/WARN]: Reference map 'iris-fabric.refmap.json' for mixins.iris.fabric.json could not be read. If this is a development environment you can ignore this message
+[20:25:17] [main/WARN]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:25:17] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[20:25:17] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[20:25:17] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.bettermipmaps.json could not be read. If this is a development environment you can ignore this message
+[20:25:17] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[20:25:17] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fixes.maxfpscrash.json could not be read. If this is a development environment you can ignore this message
+[20:25:17] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[20:25:17] [main/INFO]: Loaded configuration file for Lithium: 142 options available, 1 override(s) found
+[20:25:18] [main/INFO]: Loaded configuration file for ModernFix 5.20.2+mc1.21.4: 54 options available, 0 override(s) found
+[20:25:18] [main/INFO]: Applying Nashorn fix
+[20:25:18] [main/INFO]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
+[20:25:18] [main/INFO]: Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
+[20:25:18] [main/WARN]: Force disabled MC-122477 because it only applies to OS: LINUX
+[20:25:18] [main/WARN]: Force disabled MC-22882 because it only applies to OS: MAC
+[20:25:18] [main/WARN]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev/tr7zw/skinlayers/render/CustomizableModelPart)
+[20:25:18] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/immediate/model/EntityRenderer)
+[20:25:18] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[20:25:18] [main/WARN]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[20:25:18] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[20:25:18] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[20:25:19] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[20:25:19] [main/INFO]: Searching for graphics cards...
+[20:25:19] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 3070', adapterType=0x0000031B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispig.inf_amd64_0afec3f2050014a0\nvoglv64.dll', openglIcdVersion=32.0.15.6094}
+[20:25:19] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
+[20:25:19] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[20:25:19] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.4).
+[20:25:20] [Datafixer Bootstrap/INFO]: 243 Datafixer optimizations took 347 milliseconds
+[20:25:22] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[20:25:22] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[20:25:25] [main/INFO]: Vanilla bootstrap took 3890 milliseconds
+[20:25:25] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:25:25] [Render thread/INFO]: Setting user: Tekumoto13
+[20:25:25] [Render thread/INFO]: Loading Collective version 7.89.
+[20:25:25] [Render thread/INFO]: Enabled 53 bug fixes: [MC-577, MC-2025, MC-4490, MC-7569, MC-8187, MC-22882, MC-30391, MC-46766, MC-69216, MC-79545, MC-80859, MC-88371, MC-89146, MC-90683, MC-93018, MC-93384, MC-100991, MC-105068, MC-108948, MC-112730, MC-116379, MC-119417, MC-119754, MC-121706, MC-121903, MC-122477, MC-122627, MC-127970, MC-129909, MC-132878, MC-143474, MC-155509, MC-159163, MC-160095, MC-165381, MC-176559, MC-179072, MC-183776, MC-183990, MC-197260, MC-199467, MC-200418, MC-206922, MC-215530, MC-215531, MC-217716, MC-223153, MC-224729, MC-231097, MC-231743, MC-232869, MC-237493, MC-263865]
+[20:25:25] [Render thread/INFO]: Successfully Debugify'd your game!
+[20:25:26] [Render thread/INFO]: [BetterGrassify] [FANCY] Gamers can finally touch grass!?
+[20:25:26] [Render thread/INFO]: Trying to read config file...
+[20:25:26] [Render thread/INFO]: A config file was found, loading it..
+[20:25:26] [Render thread/INFO]: Successfully loaded config file.
+[20:25:26] [Render thread/INFO]: Pre-initializing Controlify...
+[20:25:26] [Render thread/INFO]: Dynamic FPS 3.7.7 active on Fabric!
+[20:25:26] [Render thread/INFO]: Loading Entity Model Features, not fit for consumption in Portugal.
+[20:25:26] [Render thread/INFO]: [ETF]: 6 new ETF Random Properties registered by entity_model_features.
+[20:25:26] [Render thread/INFO]: Loading Entity Texture Features, ,serutaeF erutxeT ytitnE gnidoaL
+[20:25:26] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[20:25:26] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[20:25:26] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[20:25:26] [Render thread/INFO]: Loaded config modelfix-client.json
+[20:25:27] [Render thread/INFO]: Checking mod updates...
+[20:25:27] [Render thread/INFO]: Deserializing YACLConfig from 'C:\Users\deonr\AppData\Roaming\ModrinthApp\profiles\cooking with deon\config\yacl.json5'
+[20:25:27] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[20:25:27] [Worker-Main-1/INFO]: Update available for 'moreculling@1.2.3', (-> 1.2.4)
+[20:25:27] [Worker-Main-1/INFO]: Update available for 'sodium@0.6.6+mc1.21.4', (-> mc1.21.4-0.6.7-fabric)
+[20:25:27] [Worker-Main-1/INFO]: Update available for 'modernfix@5.20.2+mc1.21.4', (-> 5.20.3+mc1.21.4)
+[20:25:27] [Worker-Main-1/INFO]: Update available for 'polytone@1.21.4-3.2.9', (-> 1.21.4-3.2.11)
+[20:25:28] [Render thread/INFO]: Modifying process environment to apply workarounds for the NVIDIA graphics driver...
+[20:25:28] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] This version doesn't have an update index, skipping.
+[20:25:28] [Render thread/INFO]: OpenGL Vendor: NVIDIA Corporation
+[20:25:28] [Render thread/INFO]: OpenGL Renderer: NVIDIA GeForce RTX 3070/PCIe/SSE2
+[20:25:28] [Render thread/INFO]: OpenGL Version: 3.2.0 NVIDIA 560.94
+[20:25:28] [Render thread/INFO]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+[20:25:28] [Render thread/INFO]: Enabling GL_DEBUG_OUTPUT_SYNCHRONOUS to force the NVIDIA driver to disable threadedcommand submission
+[20:25:28] [Render thread/INFO]: Initializing ImmediatelyFast 1.3.4+1.21.4 on NVIDIA GeForce RTX 3070/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 3.2.0 NVIDIA 560.94
+[20:25:28] [Render thread/INFO]: Found Iris/Oculus 1.8.5+mc1.21.4. Enabling compatibility.
+[20:25:28] [Render thread/INFO]: Debug functionality is disabled.
+[20:25:28] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[20:25:28] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
+[20:25:28] [Render thread/WARN]: Removed resource pack fullbrightnesstoggle from options because it is no longer compatible
+[20:25:28] [Render thread/INFO]: Creating new resource manager!
+[20:25:28] [Render thread/INFO]: Quick reload listener 'class_1076'
+[20:25:28] [Render thread/INFO]: Quick reload listener 'Shader Loader'
+[20:25:29] [Render thread/INFO]: Quick reload listener 'class_4008'
+[20:25:29] [Render thread/INFO]: Quick reload listener 'class_378'
+[20:25:29] [Worker-Main-13/INFO]: Found unifont_all_no_pua-16.0.01.hex, loading
+[20:25:29] [Worker-Main-14/INFO]: Found unifont_jp_patch-16.0.01.hex, loading
+[20:25:29] [Render thread/INFO]: Quick reload listener 'class_8658'
+[20:25:29] [Render thread/INFO]: Hardware information:
+[20:25:29] [Render thread/INFO]: CPU: 16x 11th Gen Intel(R) Core(TM) i7-11700F @ 2.50GHz
+[20:25:29] [Render thread/INFO]: GPU: NVIDIA GeForce RTX 3070/PCIe/SSE2 (Supports OpenGL 3.2.0 NVIDIA 560.94)
+[20:25:29] [Render thread/INFO]: OS: Windows 11 (10.0)
+[20:25:29] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/minecraft.png'!
+[20:25:29] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/edition.png'!
+[20:25:29] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_overlay.png'!
+[20:25:29] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_0.png'!
+[20:25:29] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_1.png'!
+[20:25:29] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_2.png'!
+[20:25:29] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_3.png'!
+[20:25:29] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_4.png'!
+[20:25:29] [Render thread/INFO]: Reloading texture 'minecraft:textures/gui/title/background/panorama_5.png'!
+[20:25:29] [Render thread/INFO]: Invalidating pack caches
+[20:25:29] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, bettergrass, bettermounthud, capes, cloth-config, conditional-mixin, continuity, controlify, cubes-without-borders, debugify, dynamic_fps, e4mc_minecraft, enhancedblockentities, entity_model_features, entity_texture_features, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fabrishot, forgeconfigapiport, fullbrightnesstoggle, immediatelyfast, iris, lambdynlights, lambdynlights_api, languagereload, lithium, midnightlib, mixintrace, modernfix, modmenu, morechathistory, moreculling, nochatreports, optigui, paginatedadvancements, placeholder-api, polytone, pride, puzzle, reeses-sodium-options, rrls, sodium, sodium-extra, spruceui, yet_another_config_lib_v3, yosbr, zoomify
+[20:25:29] [Worker-ResourceReload-10/INFO]: Found unifont_all_no_pua-16.0.01.hex, loading
+[20:25:29] [Worker-ResourceReload-0/INFO]: Found unifont_jp_patch-16.0.01.hex, loading
+[20:25:29] [ForkJoinPool.commonPool-worker-1/INFO]: Registered 0 extra models
+[20:25:30] [Render thread/INFO]: [ETF]: reloading ETF data.
+[20:25:30] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[20:25:30] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[20:25:30] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[20:25:30] [Worker-ResourceReload-4/WARN]: Method overwrite conflict for getCullingBox in sodium-common.mixins.json:core.render.world.EntityRendererAccessor from mod sodium, previously written by dev.tr7zw.entityculling.mixin.EntityRendererMixin. Skipping method.
+[20:25:30] [Render thread/INFO]: Initializing Controlify...
+[20:25:30] [Render thread/INFO]: Loading Controlify config...
+[20:25:30] [Render thread/INFO]: [SDL3NativesManager] Loading SDL3 version: 3.1.11. Java bindings targeting: 3.1.9
+[20:25:30] [Render thread/WARN]: [SDL3NativesManager] SDL3 NATIVE LIBRARY VERSION MISMATCH! Java bindings are targeting a different version of SDL3 than the loaded native library. This may cause issues.
+[20:25:30] [Render thread/INFO]: [SDL3NativesManager] Successfully initialised SDL subsystems
+[20:25:31] [Render thread/INFO]: Steam Deck state: NOT_STEAM_DECK
+[20:25:31] [Render thread/INFO]: Cached all modded block culling states
+[20:25:31] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[20:25:31] [Render thread/INFO]: Finishing Controlify init...
+[20:25:31] [Render thread/INFO]: Successfully loaded 531 gamepad mapping entries!
+[20:25:31] [Render thread/INFO]: No controllers found.
+[20:25:32] [Worker-ResourceReload-4/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=false,facing=west,waterlogged=true:
     particle
-[20:10:53] [Worker-ResourceReload-3/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=false,facing=north,waterlogged=false:
+[20:25:32] [Worker-ResourceReload-4/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=false,facing=north,waterlogged=false:
     particle
-[20:10:53] [Worker-ResourceReload-3/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=true,facing=east,waterlogged=false:
+[20:25:32] [Worker-ResourceReload-4/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=true,facing=east,waterlogged=false:
     particle
-[20:10:53] [Worker-ResourceReload-3/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=true,facing=south,waterlogged=true:
+[20:25:32] [Worker-ResourceReload-4/WARN]: Missing texture references in model minecraft:decorated_pot#cracked=true,facing=south,waterlogged=true:
     particle
-[20:10:53] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Kopfhörer (CORSAIR HS80 RGB Wireless Gaming Headset)
-[20:10:53] [Render thread/INFO]: Sound engine started
-[20:10:53] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[20:10:53] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[20:10:53] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[20:10:53] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[20:10:53] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[20:10:53] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[20:10:53] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[20:10:53] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[20:10:53] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[20:10:53] [Render thread/INFO]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[20:10:53] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[20:10:53] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[20:10:53] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[20:10:53] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[20:10:54] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-hud.webp'
-[20:10:54] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-view.webp'
-[20:10:54] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-hand.webp'
-[20:10:54] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-world.webp'
-[20:10:54] [Render thread/INFO]: Successfully loaded image 'bettergrass:textures/images/bettergrassmode.webp'
-[20:10:54] [Render thread/INFO]: Successfully loaded image 'controlify:textures/screenshots/reach-around-placement.webp'
-[20:10:54] [Render thread/INFO]: Successfully loaded image 'controlify:textures/screenshots/reduce-aim-sensitivity.webp'
-[20:10:54] [Render thread/INFO]: Successfully loaded image 'controlify:textures/screenshots/screen-button-guide.webp'
-[20:10:54] [Render thread/INFO]: [ETF]: reloading ETF data.
-[20:10:54] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
-[20:10:58] [Render thread/WARN]: Game took 20.92 seconds to start
-[20:11:06] [Render thread/INFO]: Loaded 1370 recipes
-[20:11:06] [Render thread/INFO]: Loaded 1481 advancements
-[20:11:07] [Render thread/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.223 ms
-[20:11:07] [Server thread/INFO]: Starting integrated minecraft server version 1.21.4
-[20:11:07] [Server thread/INFO]: Generating keypair
-[20:11:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:11:07] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
-[20:11:07] [Render thread/INFO]: Preparing spawn area: 0%
-[20:11:08] [Render thread/INFO]: Time elapsed: 519 ms
-[20:11:08] [Server thread/INFO]: Changing view distance to 12, from 10
-[20:11:08] [Server thread/INFO]: Changing simulation distance to 12, from 0
-[20:11:08] [Render thread/INFO]: Registered 17 custom block set types
-[20:11:08] [Render thread/INFO]: Loaded 0 Custom Item Models for 0 items
-[20:11:08] [Render thread/INFO]: Reloaded Polytone Resources in 6 ms
-[20:11:09] [Server thread/INFO]: Tekumoto13[local:E:9712adbb] logged in with entity id 24 at (24.256303152516164, 65.0, 89.85446076937083)
-[20:11:09] [Server thread/INFO]: Tekumoto13 joined the game
-[20:11:09] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
-[20:11:09] [Render thread/INFO]: Destroying pipeline minecraft:overworld
-[20:11:09] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
-[20:11:09] [Render thread/INFO]: Started 10 worker threads
-[20:11:09] [Render thread/INFO]: Loaded 609 advancements
-[20:11:09] [Render thread/WARN]: Time from main menu to in-game was 2.9419992 seconds
-[20:11:09] [Render thread/WARN]: Total time to load game and open world was 23.862 seconds
-[20:11:47] [Server thread/INFO]: Saving and pausing game...
-[20:11:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:overworld
-[20:11:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:the_end
-[20:11:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:the_nether
-[20:11:48] [Server thread/INFO]: Tekumoto13 lost connection: Disconnected
-[20:11:48] [Server thread/INFO]: Tekumoto13 left the game
-[20:11:48] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[20:11:48] [Server thread/INFO]: Stopping server
-[20:11:48] [Server thread/INFO]: Saving players
-[20:11:48] [Server thread/INFO]: Saving worlds
-[20:11:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:overworld
-[20:11:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:the_end
-[20:11:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:the_nether
-[20:11:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (cooking with me _)): All chunks are saved
-[20:11:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:11:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:11:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:11:48] [Render thread/INFO]: Stopping worker threads
-[20:11:48] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
-[20:11:50] [Render thread/INFO]: Stopping!
-[20:11:50] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[20:25:32] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Kopfhörer (CORSAIR HS80 RGB Wireless Gaming Headset)
+[20:25:32] [Render thread/INFO]: Sound engine started
+[20:25:32] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[20:25:32] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[20:25:32] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:25:32] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:25:32] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[20:25:32] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[20:25:32] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[20:25:32] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20:25:32] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:25:32] [Render thread/INFO]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[20:25:32] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[20:25:32] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:25:32] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20:25:32] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[20:25:33] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-hud.webp'
+[20:25:33] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/third-person-view.webp'
+[20:25:33] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-hand.webp'
+[20:25:33] [Render thread/INFO]: Successfully loaded image 'zoomify:textures/demo/zoom-world.webp'
+[20:25:33] [Render thread/INFO]: Successfully loaded image 'bettergrass:textures/images/bettergrassmode.webp'
+[20:25:33] [Render thread/INFO]: Successfully loaded image 'controlify:textures/screenshots/reach-around-placement.webp'
+[20:25:33] [Render thread/INFO]: Successfully loaded image 'controlify:textures/screenshots/reduce-aim-sensitivity.webp'
+[20:25:33] [Render thread/INFO]: Successfully loaded image 'controlify:textures/screenshots/screen-button-guide.webp'
+[20:25:33] [Render thread/INFO]: [ETF]: reloading ETF data.
+[20:25:33] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[20:25:37] [Render thread/WARN]: Game took 20.768 seconds to start
+[20:25:54] [Render thread/INFO]: Found new data pack collective, loading it automatically
+[20:25:54] [Render thread/INFO]: Loaded 1370 recipes
+[20:25:54] [Render thread/INFO]: Loaded 1481 advancements
+[20:25:55] [Render thread/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.041 ms
+[20:25:55] [Server thread/INFO]: Starting integrated minecraft server version 1.21.4
+[20:25:55] [Server thread/INFO]: Generating keypair
+[20:25:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:25:55] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[20:25:55] [Render thread/INFO]: Preparing spawn area: 0%
+[20:25:55] [Render thread/INFO]: Time elapsed: 410 ms
+[20:25:55] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:25:55] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[20:25:56] [Render thread/INFO]: Registered 17 custom block set types
+[20:25:56] [Render thread/INFO]: Loaded 0 Custom Item Models for 0 items
+[20:25:56] [Render thread/INFO]: Reloaded Polytone Resources in 5 ms
+[20:25:56] [Server thread/INFO]: Tekumoto13[local:E:489d4d7f] logged in with entity id 23 at (39.081662295080065, 72.0, 95.51297068880766)
+[20:25:56] [Server thread/INFO]: Tekumoto13 joined the game
+[20:25:56] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[20:25:56] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[20:25:56] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[20:25:57] [Render thread/INFO]: Started 10 worker threads
+[20:25:57] [Render thread/INFO]: Loaded 609 advancements
+[20:25:57] [Render thread/WARN]: Time from main menu to in-game was 2.681224 seconds
+[20:25:57] [Render thread/WARN]: Total time to load game and open world was 23.449224 seconds
+[20:26:04] [Server thread/INFO]: Saving and pausing game...
+[20:26:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:overworld
+[20:26:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:the_end
+[20:26:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:the_nether
+[20:28:21] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[20:28:34] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:the_nether
+[20:28:34] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[20:28:34] [Render thread/INFO]: Creating pipeline for dimension minecraft:the_nether
+[20:28:34] [Render thread/INFO]: Stopping worker threads
+[20:28:34] [Render thread/INFO]: Started 10 worker threads
+[20:28:34] [Render thread/INFO]: Stopping worker threads
+[20:28:34] [Render thread/INFO]: Started 10 worker threads
+[20:29:06] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:the_nether => minecraft:overworld
+[20:29:06] [Render thread/INFO]: Destroying pipeline minecraft:the_nether
+[20:29:06] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[20:29:06] [Render thread/INFO]: Stopping worker threads
+[20:29:06] [Render thread/INFO]: Started 10 worker threads
+[20:29:06] [Render thread/INFO]: Stopping worker threads
+[20:29:06] [Render thread/INFO]: Started 10 worker threads
+[20:29:12] [Server thread/INFO]: Saving and pausing game...
+[20:29:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:overworld
+[20:29:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:the_end
+[20:29:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:the_nether
+[20:29:13] [Server thread/INFO]: Tekumoto13 lost connection: Disconnected
+[20:29:13] [Server thread/INFO]: Tekumoto13 left the game
+[20:29:13] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[20:29:13] [Server thread/INFO]: Stopping server
+[20:29:13] [Server thread/INFO]: Saving players
+[20:29:13] [Server thread/INFO]: Saving worlds
+[20:29:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:overworld
+[20:29:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:the_end
+[20:29:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cooking with me :)]'/minecraft:the_nether
+[20:29:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (cooking with me _)): All chunks are saved
+[20:29:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:29:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:29:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:29:13] [Render thread/INFO]: Stopping worker threads
+[20:29:13] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[20:29:15] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[20:29:15] [Render thread/INFO]: Stopping!
+[20:29:15] [Render thread/ERROR]: Error saving option Brightness: DataResult.Error['Value 15.0 outside of range [0.0:1.0]']
